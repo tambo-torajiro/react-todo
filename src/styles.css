@@ -1,0 +1,65 @@
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+  margin-right: 10px;
+}
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+li {
+  margin-right: 8px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.incomplete-area {
+  margin-bottom: 15px;
+  background-color: #b3b3f8;
+  width: 400px;
+  min-height: 200px;
+  border-radius: 16px;
+  padding: 4px 16px;
+  margin-bottom: 15px;
+}
+.complete-area {
+  margin-bottom: 15px;
+  background-color: #ffd6e6;
+  width: 400px;
+  min-height: 200px;
+  border-radius: 16px;
+  padding: 4px 16px;
+  margin-bottom: 15px;
+}
+p.title {
+  text-align: center;
+  background-color: rgba(47, 33, 247, 0.555);
+  border-radius: 10px;
+  padding: 5px;
+  color: #fff;
+}
+.list-row {
+  margin-bottom: 15px;
+}
